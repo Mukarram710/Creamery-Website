@@ -2,7 +2,8 @@ for(var i=0;i<=9;i++){
 
     
     $('.order').eq(i).click(function() {
-        $('#main').fadeout().fadein();
+        alert("Thanks for Ordering!!!");
+        
     })
 }
 

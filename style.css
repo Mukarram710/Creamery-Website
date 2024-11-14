@@ -4,13 +4,29 @@ img {
     border: solid black;
     border-radius: 5%;
 }
+
+main {
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+}
+main ul {
+    display: flex;
+    gap: 2rem;
+    
+}
 li{
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-top: 0px;
+    
+    
     
 }
 h1 {
     font-style: italic;
+    margin: 0;
+    height: 1.5rem;
 }
 
 .container {
@@ -57,7 +73,7 @@ a:hover {
     color: aliceblue;
 }
 
-@media (max-width:800px){
+@media (max-width:1024px){
     body{
         .container{
             display: flex;
